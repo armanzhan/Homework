@@ -21,7 +21,7 @@ display(foo(X));
 function [Y] = min(X, i)
 xi = X;
 e = 0.05;
-while abs(foo_i(xi, i)) < e
+while abs(foo_i(xi, i)) > e
     xi(i) = xi(i) - foo_i(xi,i)/foo__i(xi,i);
 end
 X = xi;
