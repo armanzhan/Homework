@@ -2,7 +2,7 @@ x0 = 1;
 xi = x0;
 e = 0.05;
 
-while abs(foo_(xi)) < e
+while abs(foo_(xi)) > e
     xi = xi - foo_(xi)/foo__(xi);
 end
 
